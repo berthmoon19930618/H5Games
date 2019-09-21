@@ -285,7 +285,7 @@ function create () {
     createTextsBoard();
     //預設玩家角色為森森
 
-    backgroundMusic = game.add.audio('musicBg', 0.5,true);
+    backgroundMusic = game.add.audio('musicBg', 0.8,true);
     startSe = game.add.audio('startSFX', 0.5,false);
 
     // 虛擬按鍵
