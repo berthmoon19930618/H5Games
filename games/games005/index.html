@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    <meta charset="utf-8" />
+
+    <title>大創UFO</title>
+    <style>
+        * {
+            user-select: none;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+        }
+        
+        html,body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+        }
+
+        #game {
+            position: absolute;
+            top: 0; left: 0; bottom: 0; right: 0;
+            background-color: black;
+        }
+    </style>
+    <script src='../Framework/phaser.min_v2.6.2.js'></script>
+    <script src='../Framework/jquery.min_v3.3.1.js'></script>
+
+</head>
+
+<body>
+    <div id="game"></div>
+    <script src="../games005/js/game.js"></script>
+</body>
+
+</html>

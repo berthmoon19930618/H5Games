@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <audio src="../games003/audio/bgm.mp3" id="bgm" loop="loop"></audio>
+    <audio src="../games003/audio/good.mp3" id="good"></audio>
+    <audio src="../games003/audio/bad.mp3" id="bad"></audio>
+    <audio src="../games003/audio/enter.mp3" id="enter"></audio>
+    <audio src="../games003/audio/win.mp3" id="win"></audio>
+    <audio src="../games003/audio/lose.mp3" id="lose"></audio>
+
+    <script src="../Framework/jquery.min_v3.3.1.js"></script>
+    <script src="../Framework/jquery.color.min_v2.1.2.js"></script>
+    <script src="../Framework/jquery.easing.min_v1.4.1.js"></script>
+    <script src="../Framework/velocity.min_v1.5.0.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+
+    <title>狗大在哪裡</title>
+
+    <link rel="stylesheet" type="text/css" href="../games003/css/view.css" />
+
+</head>
+
+<body>
+
+    <!--1.兩張圖片預加載好;
+		2.佈局-->
+    <div id=""></div>
+    <div id="back">
+        <h1><a href="">Restart</a></h1>
+    </div>
+
+    <div class="photoHunt_container">
+        <div class="left"><span id="sec"> 30 </span>
+            <p>s</p>
+        </div>
+        <div class="right"><span id="life">0</span><br></div>
+        <div class="main">
+            <!-- <div class="message"><img src="img/message.png"></div> -->
+
+            <ul>
+                <!-- 	<p>加油好嗎？</p> -->
+                <li class="list1">
+                    <!-- <img src="img/dogBG.png"> -->
+                </li>
+            </ul>
+        </div>
+
+        <div id="score">0</div>
+        <button></button>
+    </div>
+    <script src="../games003/js/game.js"></script>
+</body>
+
+
+</html>
