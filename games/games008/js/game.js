@@ -219,7 +219,7 @@ function preload () {
 
     //行動平台螢幕適應
     this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
-    this.scale.forcePortrait = true;
+    this.scale.forcePortrait = false;
     this.scale.refresh();
     game.scale.pageAlignHorizontally = true;
     game.scale.pageAlignVertically = true;
